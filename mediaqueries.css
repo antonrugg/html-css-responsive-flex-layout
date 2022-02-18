@@ -1,4 +1,36 @@
-@media screen and (min-width: 840px) {
+@media screen and (min-width:840px) {
+    .sub-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .big-card{
+        width: 65%;
+        /* height: 50%; */
+    }
+
+    .small-card{
+        width: 32%;
+        
+    }
+
+    .small-card:nth-of-type(2){
+        /* height: 550px; */
+        justify-content: flex-start;
+        padding-bottom: 15.5rem;
+        /* height: 50%; */
+    }
+
+    .big-card.white-bg{
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (min-width: 1080px) {
     .navbar{
         display: flex;
     }
@@ -25,6 +57,18 @@
 
     .hamburger{
         display: none;
+    }
+
+    .big-card{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 66%;
+    }
+
+    .small-card:nth-of-type(2){
+        padding-bottom: 6.5rem;
+        padding-top: 0.5rem;
+        
     }
     
 }
