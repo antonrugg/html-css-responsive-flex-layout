@@ -43,6 +43,27 @@
         text-align: center;
     }
 
+    .small-card.best-of{
+        width: calc((100% / 2) - 1rem);
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .sub-section-about-us-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .sub-section-text-about-us{
+        width: calc((100% / 2) - 1rem);
+    }
+
+    
 }
 
 
@@ -107,6 +128,15 @@
     .big-card.profile{
         width: 80%;
         margin: 1.5rem auto;
+    }
+
+     .small-card.best-of{
+        width: calc((100% / 3) - 1rem);
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-bottom: 3rem;
     }
     
 }

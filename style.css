@@ -69,6 +69,7 @@ section.bg-violet{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1.5rem;
 }
 
 .big-card{
@@ -227,6 +228,97 @@ section.bg-violet{
 .big-card.profile > img{
     border-radius: 50%;
 }
+
+/* fourth section */
+
+.small-card.best-of{
+    background-color: rgb(244 242 253);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.small-card.best-of p:first-child {
+    color: rgb(155 150 209);
+    font-size: 26px;
+    margin-top: 1.5rem;
+    font-weight: 900;
+}
+
+.small-card.best-of > h4{
+    color: rgb(155 150 209);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.small-card.best-of > a{
+    color: white;
+    background-color: rgb(155 150 209);
+    padding: 0.7rem 2.5rem;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 3rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    letter-spacing: 0.2rem;
+}
+
+/* fifth section */
+
+.sub-section-text-about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+}
+
+.sub-section-text-about-us *{
+    padding: 1.2rem 1rem 0rem 0rem;
+    line-height: 1.8rem;
+}
+
+.sub-section-text-about-us > h4{
+    font-size: xx-large;
+    color: rgb(155 150 209);
+    font-weight: 900;
+}
+
+.profile-abous-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-about-us *{
+    margin: 2rem 0rem;
+}
+
+.profile-about-us > img{
+    border-radius: 50%;
+    margin: 3rem 0rem 0rem 0rem;
+}
+
+.profile-about-us > p{
+    font-size: 26px;
+    font-weight: 900;
+    color: rgb(150 146 230);;
+    padding-right: 3rem;
+}
+
+.profile-about-us > a{
+    padding: 0.6rem 1.8rem;
+    color: white;
+    background-color: rgb(150 146 230);
+    border-radius: 0.5rem;
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
 
 
 
